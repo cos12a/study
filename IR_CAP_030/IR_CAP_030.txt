@@ -1,0 +1,78 @@
+Configuration	IR_CAP_030
+STM32CubeMX 	5.1.0
+Date	03/06/2019
+MCU	STM32F030F4Px
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	Input Capture direct mode	TIM3_CH1	PA6
+TIM3	Input Capture indirect mode	TIM3_CH1	PA6
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	RCC_OSC_IN	
+3	PF1-OSC_OUT	RCC_OSC_OUT	
+6	PA0	GPIO_Output	STcp
+7	PA1	GPIO_Output	SHcp
+8	PA2	GPIO_Output	DS
+12	PA6	TIM3_CH1	IR_IN
+19	PA13	SYS_SWDIO	
+20	PA14	SYS_SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	Input Capture direct mode	TIM3_CH1	PA6
+TIM3	Input Capture indirect mode	TIM3_CH1	PA6
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	RCC_OSC_IN	
+3	PF1-OSC_OUT	RCC_OSC_OUT	
+6	PA0	GPIO_Output	STcp
+7	PA1	GPIO_Output	SHcp
+8	PA2	GPIO_Output	DS
+12	PA6	TIM3_CH1	IR_IN
+19	PA13	SYS_SWDIO	
+20	PA14	SYS_SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : IR_CAP_030
+Project Folder : E:\DiskD\testMachine\IR_Control\IR_CAP_030
+Toolchain / IDE : EWARM V8
+Firmware Package Name and Version : STM32Cube FW_F0 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
